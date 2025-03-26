@@ -3,6 +3,12 @@ body{
     padding: 0px;
     margin: 0px;
 }
+header{
+    background-color: aliceblue;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+}
 
 img{
     width: 100px;
@@ -10,7 +16,6 @@ img{
     border-radius: 50%;
 }
 .title{
-    text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,5 +23,25 @@ img{
 
 .logo{
     display: flex;
-    
+    justify-content: center;
+    align-items: center;
+}
+.nav-bar{
+    background-color: transparent;
+    text-decoration: none;
+    text-align: center;
+    padding: 27px;
+    color: #000;
+}
+.nav{
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    border: solid;
+    padding: 10px;
+}
+.nav:hover{
+    border-radius: 15px;
+    background-color: black;
+    color: aliceblue;
 }
