@@ -51,6 +51,7 @@ img{
     border-radius: 15px;
     background-color: black;
     color: aliceblue;
+    font-weight: 600;
 }
 /* header ends here  */
 
@@ -69,14 +70,18 @@ main{
     color: rgb(0, 0, 0);
     padding: 5px;
     margin: 5px;
+    font-weight: 600;
 }
 .heading:hover{
     background-color: #58545895;
     color: rgb(251, 239, 239);
     border-radius: 20px;
+    font-weight: 800;
 }
 .content{
     padding: 4px;
     font:   sans-serif;
     margin: 5px;
+    font-size: large;
+    font-weight: 600;
 }
