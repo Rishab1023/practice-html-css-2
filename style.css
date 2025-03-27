@@ -4,6 +4,7 @@ body{
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
 }
+/* header starts here  */
 header{
     background-color: aliceblue;
     display: flex;
@@ -50,4 +51,25 @@ img{
     border-radius: 15px;
     background-color: black;
     color: aliceblue;
+}
+/* header ends here  */
+
+/* main starts here  */
+main{
+    padding: 10px 15px;
+    flex-wrap: wrap;
+
+}
+.heading{
+    font-size: 25px;
+    border: solid black;
+    display: inline;
+    background-color: #2cdc3e;
+    color: rgb(0, 0, 0);
+    padding: 3px;
+}
+.content{
+    padding: 10px;
+    font: 1em sans-serif;
+    
 }
