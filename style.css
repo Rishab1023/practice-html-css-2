@@ -9,6 +9,7 @@ header{
     display: flex;
     padding: 15px, 20px;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 img{
@@ -20,6 +21,7 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 10px;
 }
 
 .logo{
@@ -34,7 +36,7 @@ img{
     padding: 5px;
     color: #000;
     font-size: 31px;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
 }
 .nav{
     gap: 10px;
