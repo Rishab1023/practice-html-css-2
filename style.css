@@ -1,11 +1,12 @@
-body{
-    background-image: linear-gradient(90deg,rgba(92, 180, 70, 0.886),rgb(59, 215, 166),rgb(53, 183, 195),rgba(11, 120, 216, 0.977));
+body {
+    background-image: linear-gradient(90deg, rgba(92, 180, 70, 0.886), rgb(59, 215, 166), rgb(53, 183, 195), rgba(11, 120, 216, 0.977));
     padding: 0px;
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 /* header starts here  */
-header{
+header {
     background-color: aliceblue;
     display: flex;
     padding: 15px, 20px;
@@ -13,25 +14,27 @@ header{
     flex-wrap: wrap;
 }
 
-img{
+img {
     width: 100px;
     height: 100px;
     border-radius: 50%;
 }
-.title{
+
+.title {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 10px;
 }
 
-.logo{
+.logo {
     display: flex;
     gap: 5px;
     align-items: center;
     padding: 10px;
 }
-.nav-bar{
+
+.nav-bar {
     background-color: transparent;
     text-align: center;
     padding: 5px;
@@ -39,7 +42,8 @@ img{
     font-size: 31px;
     flex-wrap: wrap;
 }
-.nav{
+
+.nav {
     gap: 10px;
     justify-content: center;
     text-decoration: none;
@@ -47,21 +51,24 @@ img{
     padding: 5px 10px;
     font-size: 18px;
 }
-.nav:hover{
+
+.nav:hover {
     border-radius: 15px;
     background-color: black;
     color: aliceblue;
     font-weight: 600;
 }
+
 /* header ends here  */
 
 /* main starts here  */
-main{
+main {
     padding: 10px 15px;
     flex-wrap: wrap;
 
 }
-.heading{
+
+.heading {
     font-size: 25px;
     /* border: solid black; */
     display: inline;
@@ -72,15 +79,17 @@ main{
     margin: 5px;
     font-weight: 600;
 }
-.heading:hover{
+
+.heading:hover {
     background-color: #58545895;
     color: rgb(251, 239, 239);
     border-radius: 20px;
     font-weight: 800;
 }
-.content{
+
+.content {
     padding: 4px;
-    font:   sans-serif;
+    font: sans-serif;
     margin: 5px;
     font-size: large;
     font-weight: 600;
