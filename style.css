@@ -65,8 +65,10 @@ main{
     /* border: solid black; */
     display: inline;
     background-color: #2cdc3e;
+    border-radius: 10px;
     color: rgb(0, 0, 0);
     padding: 5px;
+    margin: 5px;
 }
 .heading:hover{
     background-color: #58545895;
@@ -74,7 +76,7 @@ main{
     border-radius: 20px;
 }
 .content{
-    padding: 10px;
+    padding: 4px;
     font:   sans-serif;
-
+    margin: 5px;
 }
