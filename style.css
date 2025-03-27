@@ -62,11 +62,16 @@ main{
 }
 .heading{
     font-size: 25px;
-    border: solid black;
+    /* border: solid black; */
     display: inline;
     background-color: #2cdc3e;
     color: rgb(0, 0, 0);
-    padding: 3px;
+    padding: 5px;
+}
+.heading:hover{
+    background-color: #58545895;
+    color: rgb(251, 239, 239);
+    border-radius: 20px;
 }
 .content{
     padding: 10px;
