@@ -71,7 +71,7 @@ main {
 }
 
 .heading {
-    font-size: 25px;
+    font-size: 30px;
     /* border: solid black; */
     display: inline;
     background-color: #2cdc3e;
@@ -80,6 +80,7 @@ main {
     padding: 5px;
     margin: 5px;
     font-weight: 600;
+    
 }
 
 .heading:hover {
@@ -96,3 +97,4 @@ main {
     font-size: large;
     font-weight: 600;
 }
+
