@@ -104,23 +104,48 @@ main {
     font-weight: 600;
 }
 
-i {
+#instagram {
     font-size: 24px;
     color: #E4405F; /* Instagram's official color */
     padding: 10px;
 }
 
-i:hover {
+#instagram:hover {
     color: #C13584; /* Slightly darker shade for hover effect */
     font-size: 30px;
+    transition: ease;
+    transition-duration: 1s;
 }
 
-.social{
+.social1{
     text-decoration: none;
-    padding: 10px;
+    padding: 2px;
     color: #E4405F;
 }
 
-.social:hover{
+.social1:hover{
     color: #C13584;
+}
+
+#email {
+    font-size: 24px;
+    color: #333; /* Default color */
+    padding: 10px;
+}
+
+#email:hover {
+    color: #0078D4; /* A highlight color for hover effect */
+    font-size: 30px;
+    transition: ease;
+    transition-duration: 1s;
+}
+
+.social2{
+    text-decoration: none;
+    padding: 2px;
+    color: #333;
+}
+
+.social2:hover{
+    color: #0078D4;
 }
