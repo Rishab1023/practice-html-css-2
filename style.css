@@ -12,6 +12,7 @@ header {
     padding: 15px, 20px;
     justify-content: space-between;
     flex-wrap: wrap;
+    background-image: linear-gradient(90deg, rgb(35, 209, 239), #3ddb6d, rgb(29, 119, 221), rgb(46, 225, 216) );
 }
 
 img {
