@@ -57,8 +57,10 @@ img {
     border-radius: 15px;
     background-color: black;
     color: aliceblue;
-    font-weight: 600;
+    /* font-weight: 600; */
     font-size: 24px;
+    transition: ease-in;
+    transition-duration: 1s;
 }
 
 /* header ends here  */
@@ -87,7 +89,10 @@ main {
     background-color: #58545895;
     color: rgb(251, 239, 239);
     border-radius: 20px;
-    font-weight: 800;
+    /* font-weight: 800; */
+    transition: ease-in;
+    transition-duration: 1s;
+    transition-delay: 5ms;
 }
 
 .content {
