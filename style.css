@@ -114,3 +114,13 @@ i:hover {
     color: #C13584; /* Slightly darker shade for hover effect */
     font-size: 30px;
 }
+
+.social{
+    text-decoration: none;
+    padding: 10px;
+    color: #E4405F;
+}
+
+.social:hover{
+    color: #C13584;
+}
