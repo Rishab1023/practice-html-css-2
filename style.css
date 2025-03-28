@@ -104,3 +104,13 @@ main {
     font-weight: 600;
 }
 
+i {
+    font-size: 24px;
+    color: #E4405F; /* Instagram's official color */
+    padding: 10px;
+}
+
+i:hover {
+    color: #C13584; /* Slightly darker shade for hover effect */
+    font-size: 30px;
+}
