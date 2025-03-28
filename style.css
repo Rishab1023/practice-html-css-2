@@ -59,7 +59,7 @@ img {
     color: aliceblue;
     /* font-weight: 600; */
     font-size: 24px;
-    transition: ease-in;
+    transition: ease;
     transition-duration: 1s;
 }
 
@@ -90,9 +90,10 @@ main {
     color: rgb(251, 239, 239);
     border-radius: 20px;
     /* font-weight: 800; */
-    transition: ease-in;
+    transition: ease;
     transition-duration: 1s;
     transition-delay: 5ms;
+    font-size: 34px;
 }
 
 .content {
